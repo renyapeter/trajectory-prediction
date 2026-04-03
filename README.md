@@ -3,7 +3,7 @@
 ## Overview
 
 > **🏆 Judges Note: Refactored Codebase**
-> We have taken the original monolithic code and completely refactored it into a clean, modular, and production-ready Python project. You can find this improved architecture in the `refactored_pipeline` directory.
+> We have taken the original monolithic code and just refactored it into a clean and modular Python project. You can find this improved architecture in the `refactored_pipeline` directory. The original code still exists under 'day1_datapipeline (1).py'. No changes were made to the model or code post the submission deadline, it has just been restructured into a readable format.
 > 
 > Please see the **[Refactored Pipeline README](./refactored_pipeline/README.md)** for detailed instructions on how to set it up, train, and run evaluations on the new modular structure!
 
