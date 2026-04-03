@@ -1,6 +1,12 @@
 # Multi-Modal Trajectory Prediction (LSTM + PyTorch)
 
 ## Overview
+
+> **🏆 Judges Note: Refactored Codebase**
+> We have taken the original monolithic code and completely refactored it into a clean, modular, and production-ready Python project. You can find this improved architecture in the `refactored_pipeline` directory.
+> 
+> Please see the **[Refactored Pipeline README](./refactored_pipeline/README.md)** for detailed instructions on how to set it up, train, and run evaluations on the new modular structure!
+
 This project predicts future trajectories of pedestrians and cyclists in an urban autonomous driving setting. Instead of a single path, the model generates multiple possible future trajectories (K=3) to capture real-world uncertainty.
 
 The system is built using LSTM-based temporal modeling, enhanced with agent-centric transformations, velocity features, and a Winner-Take-All (WTA) loss.
